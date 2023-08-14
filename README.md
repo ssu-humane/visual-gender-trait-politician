@@ -23,7 +23,7 @@
 
 ## How to use
 
-Download (the model checkpoint)[https://www.dropbox.com/scl/fi/0walps0zxexjdq6slirrd/model.pt?rlkey=nqvetm5ia8bfxbaquvp590yh2&dl=0] into the root directory of this repository.
+Download [the model checkpoint](https://www.dropbox.com/scl/fi/0walps0zxexjdq6slirrd/model.pt?rlkey=nqvetm5ia8bfxbaquvp590yh2&dl=0) into the root directory of this repository.
 
 
 ```python
