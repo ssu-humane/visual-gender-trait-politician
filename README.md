@@ -1,4 +1,4 @@
-# Automatic Trait inference of Election Photographs
+# Automatic Trait Inference of Election Photographs
 
 ## Model description
 
