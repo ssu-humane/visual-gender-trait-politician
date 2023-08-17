@@ -2,7 +2,9 @@
 
 We present a model of inferring perceived gender traits from photographs of U.S. politicians.
 
+![Inference example 1](sample1.PNG)
 
+![Inference example 2](sample2.PNG)
 
 ## Model description
 
