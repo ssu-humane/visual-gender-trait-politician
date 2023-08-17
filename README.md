@@ -1,7 +1,7 @@
 # Automatic Trait Inference of Election Photographs
 
-This repository contains a checkpoint and card for a machine learning model of inferring perceived gender traits from photographs of U.S. politicians.
-The model and following analyses were published through a paper at EPJ Data Science.
+This repository contains a checkpoint and card for a machine-learning model of inferring perceived gender traits from photographs of U.S. politicians.
+The model and the following analyses were published through a paper at EPJ Data Science.
 
 ![Inference example 1](sample1.PNG)
 
@@ -22,13 +22,12 @@ Download [the model checkpoint](https://www.dropbox.com/scl/fi/0walps0zxexjdq6sl
 python infer.py --model_path model.pt --data_path sample_input.csv --result_path sample_output.csv img_dir sample_img
 ```
 
-- data_path: a csv file that has the 'path' column, which indicates the file path (without directory path)
+- data_path: a CSV file that has the 'path' column, which indicates the file path (without directory path)
 - img_dir: directory path that contains image files
 
 ## How the model was trained
 
 The model was trained on crowdworkers' perceptions of each of the 14 target traits.
-If you would like more details, please refer to the paper.
 
 ## Performance
 
