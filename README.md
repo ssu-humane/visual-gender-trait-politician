@@ -2,24 +2,12 @@
 
 We present a model of inferring perceived gender traits from photographs of U.S. politicians.
 
+
+
 ## Model description
 
 - Input: Photos (of U.S. politicians)
-- Output: Visual traits 
-  + Agreeable 
-  + Ambitious
-  + Caring
-  + Communal
-  + Confident
-  + Energetic
-  + Feminine 
-  + Formal
-  + Friendly
-  + Masculine
-  + Maternal
-  + Patriotic
-  + Professional
-  + Qualified
+- Output: 14 political traits (related to the election in literature)
 
 - Model architecture: ResNet-34 with the 14-dimensional output layer
 
@@ -27,13 +15,17 @@ We present a model of inferring perceived gender traits from photographs of U.S.
 
 Download [the model checkpoint](https://www.dropbox.com/scl/fi/0walps0zxexjdq6slirrd/model.pt?rlkey=nqvetm5ia8bfxbaquvp590yh2&dl=0) into the root directory of this repository.
 
-
 ```python
 python infer.py --model_path model.pt --data_path sample_input.csv --result_path sample_output.csv img_dir sample_img
 ```
 
-- data_path: a csv file that has the 'path' column, which indicates the file path (witout directory path)
+- data_path: a csv file that has the 'path' column, which indicates the file path (without directory path)
 - img_dir: directory path that contains image files
+
+## How the model was trained
+
+The model was trained on crowdworkers' perceptions of each of the 14 target traits.
+If you would like more details, please refer to the paper.
 
 ## Performance
 
