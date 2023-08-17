@@ -1,6 +1,6 @@
 # Automatic Trait Inference of Election Photographs
 
-We present a model of inferring perceived gender traits from photographs of U.S. politicians.
+This repository contains a checkpoint and card for a machine learning model of inferring perceived gender traits from photographs of U.S. politicians.
 
 ![Inference example 1](sample1.PNG)
 
@@ -51,7 +51,7 @@ Overall performance measured with Pearson's r measured against human perception 
 
 ## Reference
 
-For more detailed information, please refer to our paper published at EPJ Data Science.
+For more detailed information, please take a look at our paper published at EPJ Data Science.
 
 ```bibtex
 @article{park2023finding,
