@@ -54,7 +54,7 @@ However, users should acknowledge its limitations and be cautious of its potenti
 
 ## Reference
 
-For more detailed information, please take a look at our paper published at EPJ Data Science.
+For more detailed information, please check our paper published at EPJ Data Science.
 
 ```bibtex
 @article{park2023finding,
