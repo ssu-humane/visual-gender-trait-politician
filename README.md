@@ -43,10 +43,13 @@ If you would like more details, please refer to the paper.
 
 Overall performance measured with Pearson's r measured against human perception values
 
-## Limitation
+## Potential Usange \& Limitation
+
+This model can be used to infer visual traits for unlabeled U.S. election campaign images, which can be collected from social media. Or, users could apply this model to election images in any other context.
+However, users should acknowledge its limitations and be cautious of its potential biases:
 
 - The model was trained based on the perceived trait values of crowdworkers; it could reflect underlying biases.
-- The training dataset was constructed from a single U.S. election; its performance could be not generalized for other elections.
+- The training dataset was constructed from a single U.S. election; its performance could be unsatisfactory for other elections.
 - Its prediction accuracy is not satisfactory for several traits, such as Ambitious and Qualified.
 
 ## Reference
