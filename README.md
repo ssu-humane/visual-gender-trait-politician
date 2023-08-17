@@ -1,5 +1,7 @@
 # Automatic Trait Inference of Election Photographs
 
+We present a model of inferring perceived gender traits from photographs of U.S. politicians.
+
 ## Model description
 
 - Input: Photos (of U.S. politicians)
