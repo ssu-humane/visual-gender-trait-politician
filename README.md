@@ -43,18 +43,18 @@ The model was trained on crowdworkers' perceptions of each of the 14 target trai
 
 Overall performance measured with Pearson's r measured against human perception values
 
-## Potential Usange \& Limitation
+## Potential Usage \& Limitation
 
 This model can be used to infer visual traits for unlabeled U.S. election campaign images, which can be collected from social media. Or, users could apply this model to election images in any other context.
 However, users should acknowledge its limitations and be cautious of its potential biases:
 
 - The model was trained based on the perceived trait values of crowdworkers; it could reflect underlying biases.
 - The training dataset was constructed from a single U.S. election; its performance could be unsatisfactory for other elections.
-- Its prediction accuracy is not satisfactory for several traits, such as Ambitious and Qualified.
+- Its prediction accuracy is unsatisfactory for several traits, such as Ambitious and Qualified.
 
 ## Reference
 
-For more detailed information, please check our paper published at EPJ Data Science.
+Please check [our paper](https://epjdatascience.springeropen.com/articles/10.1140/epjds/s13688-023-00404-7) published at EPJ Data Science for more detailed information.
 
 ```bibtex
 @article{park2023finding,
